@@ -5,7 +5,7 @@ function Navbar({go,back,canBack,logout,loggedIn}){
   <div className="container-fluid">
    <div className="d-flex align-items-center gap-2 flex-wrap">
     {canBack&&<button className="btn btn-outline-light btn-sm" onClick={back}>← Back</button>}
-    <button className="navbar-brand fw-bold btn btn-link text-white text-decoration-none" onClick={()=>go("home")}>Internship Platform 🚀</button>
+    <button className="navbar-brand fw-bold btn btn-link text-white text-decoration-none" onClick={()=>go("home")}>Internship Platform </button>
    </div>
    <div className="d-flex flex-wrap gap-2 align-items-center">
     <button className="btn btn-light btn-sm" onClick={()=>go("home")}>{t("home")}</button>
